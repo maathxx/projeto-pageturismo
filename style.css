@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {   /* para adicionar a fonte */
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
 #container {
    box-sizing: border-box;
    width: auto;
@@ -10,10 +17,22 @@
    margin-right: 24px; 
 }
 
+header {
+    margin-bottom: 40px;
+}
+
+
+.title {
+      color: #e1624f;
+      font-weight: bold;
+}
+
 img {
     border-radius: 28px; /* adicionar arredondamento da borda*/
     width: 100%; /* Imagem ocupa 100% do tamanho disponivel pra ela*/;
+    margin-top: 24px;
     margin-bottom: 24px;
+    height: auto;
 }
 
 footer {
@@ -27,4 +46,65 @@ footer {
     margin: 30px 0;
     background-color: #d9d9d9;
     /* cria uma linha divisoria */
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: bold; /* negrito */
+    text-transform: uppercase; /* a fonte fica em maiusculo*/
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 20px; /* ajusta o recuo da bolinha */
+}
+
+ol {
+     padding: 0; /* tirei a largura padrao de uma lista para a imagem ficar ajustada */
+    margin: 0;
+}
+
+ol li {
+     font-weight: bold;  
+     font-size: 24px; 
+}
+
+ul li {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none; /* remove o sublinhado */
+    color: #0C51A7;
+}
+
+.casais {
+    color: #591B98;
+}
+
+.familias {
+    color: #E5245E;
+}
+
+.orcamento {
+    color: #E95E10;
+}
+
+.rodape {
+    text-align: center;
+   margin-bottom: 48px;
+   margin-left: 24px;
+   margin-right: 24px; 
 }
