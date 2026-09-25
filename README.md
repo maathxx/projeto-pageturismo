@@ -18,3 +18,5 @@ https://maathxx.github.io/projeto-pageturismo/
 ## 👨🏽‍💻 Autor
 
 Desenvolvido por **[Matheus Oliveira](https://github.com/maathxx)**.
+
+![Preview do projeto](./assets/preview.png)
